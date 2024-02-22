@@ -4,22 +4,25 @@ body {
 }
 
 /* NAVIGATION */
-.logo-and-navigation{
+.logo-and-navigation {
   display: flex;
   align-items: center;
 }
 
-.navigation{
+.navigation {
   list-style: none;
   display: flex;
 }
 
-
 /* MAIN CONTENT */
-#main-content{
+#main-content {
   display: flex;
 }
 
+.main-paragraph{
+  color: hsl(0, 0%, 41%);
+  font-size: 18px;
+}
 
 /* FOOTER */
 .attribution {
@@ -31,10 +34,8 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-
 /* MEDIA QUERIES */
 /* MOBILE */
-
 
 /* LAPTOP */
 @media screen and (min-width: 769px) {
@@ -42,23 +43,23 @@ body {
   .navigation > li {
     margin: 1rem;
   }
-  
-  .nav-container{
+
+  .nav-container {
     display: flex;
     justify-content: space-between;
     margin: 1rem;
   }
 
-  .login-and-register{
+  .login-and-register {
     display: flex;
     align-items: center;
   }
 
-  .login-item{
-    margin: .9rem;
+  .login-item {
+    margin: 0.9rem;
   }
 
-  .register-button{
+  .register-button {
     background-color: inherit;
     border: 1px solid;
     border-radius: 9px;
@@ -67,8 +68,45 @@ body {
   }
 
   /* MAIN CONTENT */
-  .main-image{
+  #main-content{
+    margin: 0 0 2% 12%;
+  }
+
+  .main-image {
     background-image: url("images/image-hero-desktop.png");
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30rem;
+  }
+
+  h1{
+    font-size: 3rem;
+    width: 70%;
+  }
+
+  .main-text > p {
+    line-height: 1.8rem;
+    width: 70%;
+  }
+
+  .main-item {
+    width: 50%;
+  }
+
+  .client-img{
+    margin: 1rem;
+  }
+
+  .clients{
+    margin-top: 2.5rem;
+  }
+
+  .learn-more-button{
+    border-radius: 10px;
+    border: 1px solid;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    padding: .7rem 1.2rem;
+    margin: 2rem auto;
   }
 }
