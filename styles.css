@@ -1,0 +1,33 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+/* MAIN CONTENT */
+#main-content{
+  display: flex;
+}
+
+.main-image{
+  background-image: url("images/image-hero-desktop.png");
+  background-size: 100%;
+}
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/* MEDIA QUERIES */
+/* MOBILE */
+
+
+/* LAPTOP */
+@media screen and (min-width: 769px) {
+
+  
+}
