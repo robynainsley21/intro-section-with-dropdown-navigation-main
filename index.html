@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- STYLESHEET -->
-  <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
-  <nav>
-    <div class="nav-container">
-      <div class="logo-and-navigation">
-        <div id="logo">
-          <img src="/images/logo.svg" alt="logo-img">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo-and-navigation">
+          <div id="logo">
+            <img src="/images/logo.svg" alt="logo-img" />
+          </div>
+          <div>
+            <ul class="navigation">
+              <li>Features <img src="/images/icon-arrow-down.svg" alt="arrow-down-img"></li>
+              <li>Company <img src="/images/icon-arrow-down.svg" alt="arrow-down-img"></li>
+              <li>Careers</li>
+              <li>About</li>
+            </ul>
+          </div>
         </div>
-        <div class="navigation">
-          <ul>
-            <li>Features</li>
-            <li>Company</li>
-            <li>Careers</li>
-            <li>About</li>
-          </ul>
+        <div class="login-and-register">
+          <p class="login-item">Login</p>
+          <button class="login-item register-button">Register</button>
         </div>
       </div>
-      <div class="login-and-register">
-        <p>Login</p>
-        <button>Register</button>
+    </nav>
+
+    <main>
+      <div id="main-content">
+        <div class="main-text">
+          Make remote work Get your team in sync, no matter your location.
+          Streamline processes, create team rituals, and watch productivity
+          soar. Learn more
+        </div>
+        <div class="main-image"></div>
       </div>
+    </main>
+
+    <!-- DO NOT CHANGE FOOTER -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
     </div>
-  </nav>
-
-  <main>
-    <div id="main-content">
-      <div class="main-text">
-        Make remote work
-
-        Get your team in sync, no matter your location. Streamline processes, 
-        create team rituals, and watch productivity soar.
-      
-        Learn more
-      </div>
-      <div class="main-image">
-        
-      </div>
-    </div>
-  </main>
-
-  
-  <!-- DO NOT CHANGE FOOTER -->
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </body>
 </html>

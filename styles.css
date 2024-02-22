@@ -1,16 +1,26 @@
 body {
   background-color: hsl(0, 0%, 98%);
+  font-family: "Epilogue", sans-serif;
 }
+
+/* NAVIGATION */
+.logo-and-navigation{
+  display: flex;
+  align-items: center;
+}
+
+.navigation{
+  list-style: none;
+  display: flex;
+}
+
 
 /* MAIN CONTENT */
 #main-content{
   display: flex;
 }
 
-.main-image{
-  background-image: url("images/image-hero-desktop.png");
-  background-size: 100%;
-}
+
 /* FOOTER */
 .attribution {
   font-size: 11px;
@@ -28,6 +38,37 @@ body {
 
 /* LAPTOP */
 @media screen and (min-width: 769px) {
-
+  /* NAVIGATION */
+  .navigation > li {
+    margin: 1rem;
+  }
   
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  .login-and-register{
+    display: flex;
+    align-items: center;
+  }
+
+  .login-item{
+    margin: .9rem;
+  }
+
+  .register-button{
+    background-color: inherit;
+    border: 1px solid;
+    border-radius: 9px;
+    padding: 10px 1rem;
+    font-family: "Epilogue", sans-serif;
+  }
+
+  /* MAIN CONTENT */
+  .main-image{
+    background-image: url("images/image-hero-desktop.png");
+    background-size: 100%;
+  }
 }
