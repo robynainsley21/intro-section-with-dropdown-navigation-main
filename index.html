@@ -24,6 +24,9 @@
 
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="/styles.css" />
+
+    <!-- JAVASCRIPT -->
+    <script type="module" defer src="/app.js"></script>
   </head>
 
   <body>
@@ -35,14 +38,31 @@
           </div>
           <div>
             <ul class="navigation">
-              <li>
-                Features
-                <img src="/images/icon-arrow-down.svg" alt="arrow-down-img" />
-              </li>
-              <li>
-                Company
-                <img src="/images/icon-arrow-down.svg" alt="arrow-down-img" />
-              </li>
+              
+              <div class="dropdown">
+                <li class="drop-item1">
+                  Features
+                  <img src="/images/icon-arrow-down.svg" alt="arrow-down-img" />
+                </li>
+                <div id="features-menu1" class="dropdown-content">
+                  <p>item</p>
+                  <p>item</p>
+                  <p>item</p>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <li class="drop-item2">
+                  Company
+                  <img src="/images/icon-arrow-down.svg" alt="arrow-down-img" />
+                </li>
+                <div id="features-menu2" class="dropdown-content">
+                  <p>item</p>
+                  <p>item</p>
+                  <p>item</p>
+                </div>
+              </div>
+
               <li>Careers</li>
               <li>About</li>
             </ul>

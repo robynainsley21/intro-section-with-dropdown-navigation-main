@@ -14,6 +14,24 @@ body {
   display: flex;
 }
 
+/* DROPDOWN (FEATURES AND COMPANY) */
+.dropdown{
+  position: relative;
+  margin: auto;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  overflow: auto;
+  z-index: 9;
+  min-width: 160px;
+}
+
+.show{
+  display: block;
+}
+
 /* MAIN CONTENT */
 #main-content {
   display: flex;
